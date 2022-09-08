@@ -1,0 +1,36 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+body
+{
+  background-color:coral;
+ background-image: linear-gradient(to bottom right, red, yellow);
+}
+.tree {
+  width: 600px;
+  height: 300px;
+  
+  border-radius: 15px;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  background-color:#6ff255;
+  box-shadow:15px 20px #0e3606;
+}
+.rty:hover {
+  
+   border:solid 4px purple;
+}
+.wer{ 
+  background-color:green;}
+.dfg{background-color:red;}
+
+table,th,td{
+  color: black;
+  border:solid 2px black;
+  padding: 3px;
+  margin:10px;
+}
